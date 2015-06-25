@@ -1,0 +1,79 @@
+.imageUpload {
+	border: 1px solid rgba(0, 0, 0, 0.03);
+	min-height: 160px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	padding: 0px;
+	overflow: auto;
+	background: url(images/click_or_drop.png) no-repeat center #EEE;
+	margin-top: 5px;
+	cursor: pointer;
+}
+.imageUpload .bikCanvas {
+	border: 1px solid rgba(200, 200, 200, 0.6);
+	float: left;
+	width: 100px;
+	overflow: hidden;
+	margin: 4px;
+	text-align: center;
+	background: rgba(255, 255, 255, 0.9);
+	padding: 5px;
+}
+.imageUpload .bikCanvas .canvasFileName {
+	height: 20px;
+	font-weight: bold;
+	overflow: hidden;
+}
+.imageUpload .bikCanvas .canvasDisp {
+	height: 100px;
+	border: 1px solid rgba(0, 0, 0, 0.12);
+	overflow: hidden;
+	vertical-align: middle;
+	background: rgba(0, 81, 13, 0.16);
+}
+.imageUpload .bikCanvas .canvasDisp img {
+	width: 100%;
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+.imageUpload .bikCanvas .canvasStatus {
+	background: #EEE;
+	height: 5px;
+	margin: 8px 0px 4px 0px;
+}
+.imageUpload .bikCanvas .canvasStatus .canvasProg {
+	background: #FFFF00;
+	height: 5px;
+	width:0%;
+}
+.imageUpload .bikCanvas .canvasStatus .canvasProg .canvasUpload {
+	background: #009900;
+	height: 5px;
+	width:0%;
+}
+.statusBar {
+	background:#EEE;
+	margin-top:0px;
+	height:5px;
+}
+.statusBar>div{
+	background:#FFFF00;
+	width:0%;
+	height:5px;
+	-moz-transition: all 1s ease-in;
+	-webkit-transition: all 1s ease-in;
+	-o-transition: all 1s ease-in;
+	transition: all 1s ease-in;
+}
+.statusBar>div>div {
+	background:#009900;
+	width:0%;
+	height:5px;
+	-moz-transition: all 1s ease-in;
+	-webkit-transition: all 1s ease-in;
+	-o-transition: all 1s ease-in;
+	transition: all 1s ease-in;
+}
